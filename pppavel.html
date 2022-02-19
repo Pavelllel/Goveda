@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+
 <head>
     <style>
- 
+
         /* Украсување на стрната */
         * {
             padding: 0;
             margin: 0;
         }
- 
+
         /* Поставување на позадина и нејзино наместување */
         .container {
             height: 100vh;
             width: 100%;
-            background-image: url(321.jpg);
-             
+            background-image: url("321 - Copy.jpg");
+
             /* Image used: */
             background-size: cover;
             background-position: center;
             position: relative;
         }
- 
+
         /* Листа за ставање на Почетна Музкика Пеачи и општо на десна страна */
         .nav li {
             float: right;
             list-style: none;
         }
- 
+
         /* Styling the anchor tags of
         the navigation bar */
         .nav a {
@@ -41,37 +41,38 @@
             color: red;
             text-decoration: none;
         }
- 
+
         /* Giving position and margin
         to the content-div */
         .content {
             width: 100%;
             position: absolute;
-            top: 45%;
+            top: 25%;
         }
- 
+
         /* Styling the left-col by
         giving margin */
         .left-col {
             margin-left: 11%;
+            margin-top: -10%;
         }
- 
+
         /* Styling the my sound placed
         in the left-col */
         .left-col h1 {
             font-size: 50px;
             color: crimson;
         }
- 
+
         /* Styling the right-col */
         .right-col {
             float: right;
             margin-right: 10%;
-            margin-top: -5%;
+            margin-top: 5%;
             display: flex;
             align-items: center;
         }
- 
+
         /* Styling the text in the right-col */
         .right-col p {
             font-size: 22px;
@@ -79,7 +80,45 @@
             font-weight: 650;
             margin-right: 20px;
         }
- 
+        /* Styling the center column */
+        .center-col {
+          position: absolute;
+          left: 30%;
+          right: 30%;
+          top: -20%;
+          align-self: center;
+          margin-left: 5%;
+        }
+        /* Table style */
+        table, table td {
+          border: 1px solid white;
+          border
+        }
+
+        #top5mk {
+          margin-top: 10%;
+        }
+
+        /* Styling the text in the center column */
+        .center-col td {
+          font-family: monospace;
+          font-size: 22px;
+          color: white;
+          /* white-space: nowrap;
+          overflow: hidden; */
+          /* animation: floatText 25s infinite linear; */
+        }
+        .center-col h1 {
+          font-size: 22px;
+          color: red;
+          align-content: center;
+        }
+        /* Text auto scroll */
+        /* @keyframes floatText {
+          to {
+            transform: translateX(-100%);
+          }
+        } */
         /* Styling the cursor type
         of the icon to pointer */
         #icon {
@@ -87,10 +126,12 @@
         }
     </style>
 </head>
- 
+
 <body>
     <div class="container">
+
         <ul class="nav">
+          <img src="logo.png" alt="Pavel e Stoka">
             <li><a href="contact.html">КОНТАКТ</a></li>
             <li><a href="team.html">ТИМ</a></li>
             <li><a href="nestozaradioto.html">ЗА НАС</a></li>
@@ -98,41 +139,115 @@
             <li><a href="#">ПОЧЕТНА</a></li>
         </ul>
     </div>
- 
+
     <div class="content">
         <div class="left-col">
-            <h1>Интересна <br> Музика</h1>
+            <h1>Млад Свет</h1>
         </div>
- 
+        <div class="center-col">
+          <div id="top5svet">
+          <h1> Топ 5 листа на неделата </h1>
+          <table>
+          <tbody>
+          <tr>
+
+          <td>
+          <ul class="i8Z77e">
+          <li class="TrT0Xe">Ghost / Justin Bieber.</li>
+          </ul>
+          </td>
+          </tr>
+          <tr>
+
+          <td>
+          <ul class="i8Z77e">
+          <li class="TrT0Xe">THATS WHAT I WANT / Lil Nas X.</li>
+          </ul>
+          </td>
+          </tr>
+          <tr>
+
+          <td>
+          <ul class="i8Z77e">
+          <li class="TrT0Xe">Shivers / Ed Sheeran.</li>
+          </ul>
+          </td>
+          </tr>
+          <tr>
+
+          <td>
+          <ul class="i8Z77e">
+          <li class="TrT0Xe">Heat Waves / Glass Animals.</li>
+          </ul>
+          </td>
+          </tr>
+          <tr>
+
+          <td>
+          <ul class="i8Z77e">
+          <li class="TrT0Xe">Infinity / Jaymes Young.</li>
+          </li>
+          </tr>
+          </tbody>
+          </table>
+          </li>
+          </ul>
+        </div>
+      <div id="top5mk">
+        <h1> Топ 5 Македонски Песни на Неделата</h1>
+        <table>
+          <tbody>
+          <tr>
+          <td>Бројаница / Тања Тас &amp; Гуру Харе
+          </td>
+          </tr>
+          <tr>
+          <td>Мики Јовановски Џафер / Џоле бре гол</td>
+          </tr>
+          <tr>
+          <td>Ако згрешам, нека изгорам / Аки Рахимовски
+          </td>
+          </tr>
+          <tr>
+          <td>Зад завесите / Бојана</td>
+          </tr>
+          <tr>
+          <td>Весела песна / Дац&amp;Александар&amp;Златно Славејче</td>
+          </tr>
+          </tbody>
+          </table>
+          <!-- Табла за македонски топ 5 песни на неделната -->
+      </div>
+    </div>
         <div class="right-col">
-             
- 
+
+
 <p>Стисни овде за да слушаш музика</p>
- 
- 
+
+
             <img src="media/213.png" id="icon">
         </div>
     </div>
- 
+
     <audio id="mysound">
         <source src="muzika.mp3" type="audio/mp3">
     </audio>
- 
+
     <script>
         var mysound = document.getElementById("mysound");
         var icon = document.getElementById("icon");
- 
+
         // Creating a function that will change
         // pause to play and vice-versa
         icon.onclick = function() {
             if (mysound.paused) {
- 
+
                 // If paused then play the
                 // music and change the image
                 mysound.play();
                 icon.src ="123.png";
             } else {
- 
+
                 // If playing then pause the
                 // music and change the image
                 mysound.pause();
@@ -141,5 +256,5 @@
         }
     </script>
 </body>
- 
+
 </html>
