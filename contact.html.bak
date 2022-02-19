@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <style>
+ 
+        /* Украсување на стрната */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+ 
+        /* Поставување на позадина и нејзино наместување */
+        .container {
+            height: 65vh;
+            width: 100%;
+            background-image: url(contact.jpg);
+             
+            /* Image used: */
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+ 
+        /* Листа за ставање на Почетна Музкика Пеачи и општо на десна страна */
+        .nav li {
+            float: right;
+            list-style: none;
+        }
+ 
+        /* Styling the anchor tags of
+        the navigation bar */
+        .nav a {
+            list-style: none;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1rem;
+            font-weight: 550;
+            display: block;
+            padding: 5px 35px;
+            color: red;
+            text-decoration: none;
+        }
+ 
+        /* Giving position and margin
+        to the content-div */
+        .content {
+            width: 100%;
+            position: absolute;
+            top: 45%;
+        }
+ 
+        /* Styling the contact-col */
+        .contact-col {
+		text-align:center
+		}         
+ 
+        /* Styling the text in the contact-col */
+        .contact-col p {
+            font-size: 22px;
+            color: red;
+            font-weight: 650;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="contact.html">КОНТАКТ</a></li>
+            <li><a href="nestozaradioto.html">ЗА НАС</a></li>
+            <li><a href="team.html">TИМ</a></li>
+            <li><a href="#">МУЗИКА</a></li>
+            <li><a href="pppavel.html">ПОЧЕТНА</a></li>
+        </ul>
+    </div>
+ 
+        <div class="contact-col">
+             
+ 
+<p><strong>КОНТАКТ ИНФОРАМЦИИ</strong></p>
+<br>
+<p> Радио Млад Свет - Виница
+<br>
+ул:Кирил и Методиј 35А, 3000 Виница
+<br>
+Телефон:+389(33)363-999 , +389(33)363-771
+<p>&nbsp;</p>
+<div class="contact-col">
+<strong>Е-маил:mladssvet@svet.com.mk</strong>
+</div>
+ 
+ <div class="contact-col">
+ <div class="contact-col p">
+ </div>
+ </div>
+ <img src="logo.png" class="logo">
+ </div>
+</body>
+ 
+</html>
