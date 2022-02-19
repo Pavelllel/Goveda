@@ -11,10 +11,9 @@
         }
  
         /* Поставување на позадина и нејзино наместување */
-        .container {
+        .timrabotnici {
             height: 100vh;
             width: 100%;
-			opacity: 0.7;
             background-image: url(1234555.jpg);
             background-size: cover;
             background-position: center;
@@ -43,11 +42,11 @@
             position: absolute;
             top: 45%;
         }
-        .right-col {
+        .desna-col {
             float: right;
             margin-right: 20%;
             margin-top: -45%;
-			color: black;
+			color: red;
             display: flex;
             align-items: center;
         }
@@ -55,17 +54,18 @@
 </head>
  
 <body>
-    <div class="container">
+    <div class="timrabotnici">
         <ul class="nav">
-            <li><a href="contact.html">Контакт</a></li>
-            <li><a href="#">МУЗИКА</a></li>
+            <li><a href="contact.html">КОНТАКТ</a></li>
+            <li><a href="#">ТОП ЛИСТИ</a></li>
 			<li><a href="team.html">ТИМ</a></li>
-            <li><a href="pppavel.html">ПОЧЕТНА</a></li>
 			<li><a href="nestozaradioto.html">ЗА НАС</a></li>
+			<li><a href="pppavel.html">ПОЧЕТНА</a></li>
         </ul>
     </div>
  
-        <div class="right-col">
+		<div class="timrabotnici">
+        <div class="desna-col">
 <div class="ime">
   <h1>Павел Илиев </h1> 
   <p>Генерален Директор</p>
@@ -87,13 +87,13 @@
   <img width="100" height="100" src="123445.png"
   </div>
   <div class="novoime">
-  <h2> Мартина Крстева </h2>
+  <h1> Мартина Крстева </h1>
   <p> Новинар </p>
   <img width="100" height="100" src="123445.png"
 </div>
 </div>
 </div>
-
+</div>
         </div>
     </div>
 </body>
