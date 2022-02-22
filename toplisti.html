@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+
 <head>
     <style>
- 
+
         /* Украсување на стрната */
         * {
             padding: 0;
             margin: 0;
         }
- 
+
         /* Поставување на позадина и нејзино наместување */
         .container {
             height: 100vh;
             width: 100%;
             background-image: url(321.jpg);
-             
+
             /* Image used: */
             background-size: cover;
             background-position: center;
             position: relative;
         }
- 
+
         /* Листа за ставање на Почетна Музкика Пеачи и општо на десна страна */
         .nav li {
             float: right;
             list-style: none;
         }
- 
+
         /* Styling the anchor tags of
         the navigation bar */
         .nav a {
@@ -41,7 +41,7 @@
             color: red;
             text-decoration: none;
         }
- 
+
         /* Giving position and margin
         to the content-div */
         .content {
@@ -49,37 +49,50 @@
             position: absolute;
             top: 45%;
         }
- 
+
         /* Styling the left-col by
         giving margin */
-        .left-col {
-            margin-left: 11%;
+        .center-col {
+            margin-left: -11%;
         }
- 
+
         /* Styling the my sound placed
         in the left-col */
         .left-col h1 {
             font-size: 50px;
             color: crimson;
         }
- 
+
         /* Styling the right-col */
-        .right-col {
-            float: right;
-            margin-right: 10%;
-            margin-top: -5%;
+        .left-col {
+            float: left;
             display: flex;
             align-items: center;
+            color: red;
+            margin-top: -15%;
+            margin-left: 11%;
         }
- 
+
         /* Styling the text in the right-col */
-        .right-col p {
-            font-size: 22px;
+        .left-col li {
+            font-size: 48px;
             color: red;
             font-weight: 650;
-            margin-right: 20px;
+            margin-right: 5px;
+            display: block;
+            padding-right: 25%;
+            line-height: 150px;
         }
- 
+        .center-col li {
+            font-size: 48px;
+            color: red;
+            font-weight: 650;
+            margin-right: -5px;
+            display: block;
+            padding-right: 25em;
+            line-height: 250px;
+        }
+
         /* Styling the cursor type
         of the icon to pointer */
         #icon {
@@ -98,48 +111,100 @@
             <li><a href="pppavel.html">ПОЧЕТНА</a></li>
         </ul>
     </div>
- 
+
     <div class="content">
         <div class="left-col">
-            <h1>Интересна <br> Музика</h1>
-        </div>
- 
-        <div class="right-col">
-             
- 
-<p>Стисни овде за да слушаш музика</p>
- 
- 
-            <img src="media/213.png" id="icon">
-        </div>
+          <div class="sliki">
+            <div id="sliki">
+            <table>
+            <tbody>
+            <tr>
+            <td>
+            <ul class="i8Z77e">
+            <li class="TrT0Xe"><img src="telekom500.jpg" width="50%" /></li>
+            </ul>
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <ul class="i8Z77e">
+            <li class="TrT0Xe"><img src="blizoo500.jpg" width="50%" /></li>
+            </ul>
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <ul class="i8Z77e">
+            <li class="TrT0Xe"><img src="a1500.jpg" width="50%" /></li>
+            </ul>
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <ul class="i8Z77e">
+            <li class="TrT0Xe"><img src="512x512bb.jpg" width="50%" /></li>
+            </ul>
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <ul class="i8Z77e">
+            <li class="TrT0Xe"><img src="581.webp" width="50%" /></li>
+            </li>
+            </tr>
+            </tbody>
+            </table>
+            </li>
+            </ul>
+          </div>
+
     </div>
- 
-    <audio id="mysound">
-        <source src="muzika.mp3" type="audio/mp3">
-    </audio>
- 
-    <script>
-        var mysound = document.getElementById("mysound");
-        var icon = document.getElementById("icon");
- 
-        // Creating a function that will change
-        // pause to play and vice-versa
-        icon.onclick = function() {
-            if (mysound.paused) {
- 
-                // If paused then play the
-                // music and change the image
-                mysound.play();
-                icon.src ="123.png";
-            } else {
- 
-                // If playing then pause the
-                // music and change the image
-                mysound.pause();
-                icon.src ="213.png";
-            }
-        }
-    </script>
+    <div class="center-col">
+      <div class="kanali">
+        <div id="kanali">
+        <table>
+        <tbody>
+        <tr>
+        <td>
+        <ul class="i8Z77e">
+        <li class="TrT0Xe">ТЕЛЕКОМ </li>
+        </ul>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <ul class="i8Z77e">
+        <li class="TrT0Xe">БЛИЗУ</li>
+        </ul>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <ul class="i8Z77e">
+        <li class="TrT0Xe">А1</li>
+        </ul>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <ul class="i8Z77e">
+        <li class="TrT0Xe">ТЕЛЕКАБЕЛ</li>
+        </ul>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <ul class="i8Z77e">
+        <li class="TrT0Xe">103.5 FM</li>
+        </li>
+        </tr>
+        </tbody>
+        </table>
+        </li>
+        </ul>
+      </div>
+
+
 </body>
- 
+
 </html>
